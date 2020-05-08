@@ -1,8 +1,8 @@
 {
-  "name": "flask-snippets",
+  "name": "flask-snips",
   "version": "0.3.4",
   "description": "A collection of snippets for the Python Flask Microframework.",
-  "main": "./lib/flask-snippets",
+  "main": "./lib/flask-snips",
   "author": {
     "Michael Waterman <m1waterman88@pm.me> (https://github.com/m1waterman88)"
   },
