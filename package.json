@@ -1,23 +1,28 @@
 {
   "name": "flask-snippets",
+  "version": "0.3.4",
+  "description": "A collection of snippets for the Python Flask Microframework.",
   "main": "./lib/flask-snippets",
-  "autor": {
-    "name": "Juan Leon"
+  "author": {
+    "Michael Waterman <m1waterman88@pm.me> (https://github.com/m1waterman88)"
   },
-  "version": "0.3.3",
-  "description": "A collection of snippets for Python Flask Microframework.",
+  "contributors": [
+    {
+      "name": "Juan Leon"
+    }
+  ],
+  "repository": "https://github.com/m1waterman88/flask-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/m1waterman88/flask-snippets/issues"
+  },
   "keywords": [
     "snippets",
     "python",
     "flask",
     "jinja"
-  ],
-  "repository": "https://github.com/jleonra/flask-snippets",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=0.2.0 <2.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/jleonra/flask-snippets/issues"
-  }
+  ]
 }
