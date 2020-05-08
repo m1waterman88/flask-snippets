@@ -5,7 +5,7 @@
 
 ***
 ## To install:
-> apm install flask-snippets
+> apm install flask-snips
 
 ## Snippets
 #### All snippets start with the letter f
