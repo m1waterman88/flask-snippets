@@ -1,7 +1,7 @@
 # flask-snippets
 
 
-### Adds snippets to quickly build Jinja html templates and Flask python controls in Atom.
+### Adds snippets to quickly build Jinja2 HTML templates and Flask Python controls in Atom.
 
 ***
 ## To install:
