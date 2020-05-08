@@ -11,16 +11,17 @@
       "name": "Juan Leon"
     }
   ],
-  "repository": "https://github.com/m1waterman88/flask-snippets",
+  "repository": "https://github.com/m1waterman88/flask-snips",
   "license": "MIT",
   "engines": {
     "atom": "*"
   },
   "bugs": {
-    "url": "https://github.com/m1waterman88/flask-snippets/issues"
+    "url": "https://github.com/m1waterman88/flask-snips/issues"
   },
   "keywords": [
     "snippets",
+    "snip",
     "python",
     "flask",
     "jinja"
