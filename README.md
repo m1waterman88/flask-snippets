@@ -7,21 +7,10 @@
 ## To install:
 > apm install flask-snippets
 
-## Python controls
-![Python Snippet](https://ibin.co/2waIulh067f4.gif)
-
-
-
-## Jinja templates
-
-![Jinja Templates](https://ibin.co/2waLnfYDHVrc.gif)
-
-***
-
 ## Snippets
 #### All snippets start with the letter f
 
-### [Jinja Templates]( http://jinja.pocoo.org/docs/dev/templates/):
+### [Jinja Templates](https://jinja.palletsprojects.com/en/2.11.x/templates/):
 * fexp
 * ffilter
 * ffb
@@ -43,7 +32,7 @@
 
 ***
 
-### [Flask](http://flask.pocoo.org/docs/0.11/quickstart/):
+### [Flask](https://flask.palletsprojects.com/en/1.1.x/):
 * "" (single line docstring)
 * """ (multi-line docstring)
 * fapp
