@@ -4,7 +4,7 @@
   "description": "A collection of snippets for the Python Flask Microframework.",
   "main": "./lib/flask-snips",
   "author": {
-    "Michael Waterman <m1waterman88@pm.me> (https://github.com/m1waterman88)"
+    "Michael Waterman": "<m1waterman88@pm.me> (https://github.com/m1waterman88)"
   },
   "contributors": [
     {
