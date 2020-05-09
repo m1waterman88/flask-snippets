@@ -71,4 +71,4 @@
 
     'Flask url':
         'prefix': 'furl'
-        'body': '{{ url_for('${1:template}') }}$2'
+        'body': "{{ url_for('${1:template}') }}$2"

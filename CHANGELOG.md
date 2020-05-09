@@ -1,3 +1,6 @@
+## 0.4.4 - furl/fextends
+* Fix single-quote-nested in single quotes
+
 ## 0.4.3 - CHANGELOG
 * Update CHANGELOG -- previously forgotten (how meta)
 
