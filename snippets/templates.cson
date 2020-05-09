@@ -19,7 +19,7 @@
 
     'Flask Extends':
         'prefix': 'fextends'
-        'body': '{% extends ${1:layout_template} %}\n\n$2'
+        'body': '{% extends "${1:layout_template}" %}\n\n$2'
 
     'Flask Self':
         'prefix': 'fself'
