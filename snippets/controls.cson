@@ -1,7 +1,7 @@
 '.source.python':
     'ML docstring':
         'prefix': '"""'
-        'body': """\\"\\"\\"${1:sumary_line}
+        'body': """\\"\\"\\"${1:summary_line}
 
                 Keyword arguments:
                 ${2:argument} -- ${3:description}
@@ -11,7 +11,7 @@
 
     'SL docstring':
         'prefix': '""'
-        'body': '"""${1:sumary_line}"""\n$2'
+        'body': '"""${1:summary_line}"""\n$2'
 
     'Flask App':
         'prefix': 'fapp'
@@ -21,18 +21,19 @@
 
                 @app.route('${1:/}')
                 def ${2:index}():
-                    return render_template('${3:index}.html')
+                    return render_template('${3:index}.html')\n$4"""
 
-
+    'Flask Run':
+        'prefix': 'frun'
+        'body': """
                 if __name__ == '__main__':
-                    app.run(host='${4:127.0.0.1}', port=${5:8000}, debug=${6:True})\n$0"""
+                    app.run(host='${1:127.0.0.1}', port=${2:8000}, debug=${3:True})\n$4"""
 
     'Flask Route':
         'prefix': 'froute'
-        'body':"""@app.route('${1:path}')
+        'body': """@app.route('${1:path}')
         def ${2:func_name}(${3:foo}):
-            return render_template('${4:expression}')
-        """
+            return render_template('${4:expression}')\n$5"""
 
     'URL Generator':
         'prefix': 'furl'
