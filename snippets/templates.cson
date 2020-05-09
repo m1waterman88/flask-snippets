@@ -19,7 +19,7 @@
 
     'Flask Extends':
         'prefix': 'fextends'
-        'body': '{% extends "${1:layout_template}" %}\n\n$2'
+        'body': '{% extends "${1:layout.html}" %}\n\n$2'
 
     'Flask Self':
         'prefix': 'fself'
@@ -71,4 +71,4 @@
 
     'Flask url':
         'prefix': 'furl'
-        'body': '{{ url_for("${1:template}") }}$2'
+        'body': '{{ url_for('${1:template}') }}$2'
