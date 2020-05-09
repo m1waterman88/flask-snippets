@@ -1,6 +1,6 @@
 {
   "name": "flask-snips",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "description": "A collection of snippets for the Python Flask Microframework.",
   "main": "./lib/flask-snips",
   "author": {
