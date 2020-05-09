@@ -36,6 +36,7 @@
 * "" (single line docstring)
 * """ (multi-line docstring)
 * fapp
+* frun
 * froute
 * furl
 * fmeth
